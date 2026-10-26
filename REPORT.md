@@ -46,7 +46,7 @@
 ### 4.1. Настройка CI/CD
 Для автоматической проверки стандартов кодирования (PEP8) был настроен пайплайн на базе GitHub Actions. Линтер `flake8` с ограничением длины строки в 80 символов запускается на каждый создаваемый Pull Request в ветку `develop`.
 
-*   Ссылка на файл пайплайна: 'https://github.com/sergeevA736/lab1-comprehensive-sergeeva/blob/develop/.github/workflows/qa.yml
+*   Ссылка на файл пайплайна: [https://github.com/@sergeevA736/lab1-comprehensive-sergeeva/blob/develop/.github/workflows/qa.yml]
 ### 4.2. Работа Quality Gate
 В ходе тестирования («Сломать и починить») в систему был отправлен код с заведомыми ошибками (неиспользуемый импорт `import os` и строка > 80 символов).
 * **Текст ошибки линтера:** `F401 'os' imported but unused` и `E501 line too long (107 > 80 characters)`.
