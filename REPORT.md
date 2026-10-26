@@ -57,7 +57,7 @@
 На основе legacy-кода была восстановлена логика последовательности начисления скидок.
 
 * **Визуализация процесса (UML Activity Diagram):**
-    ![UML Diagram](docs/uml_diagram.png)
+    [https://github.com/sergeevaA736/-lab1-comprehensive-Sergeeva/blob/feature/review-plan/docs/uml_diagram.png]
 
 * **Выявленные запахи кода (Code Smells) в legacy-фрагменте:**
     1. **Магические числа (Magic Numbers):** Значения порогов (`15000`), фиксированных скидок (`500`), коэффициентов (`0.85`, `0.90`, `0.93`, `0.97`) и лимита (`0.70`) зашиты жестко в коде. Их необходимо вынести в конфигурацию.
